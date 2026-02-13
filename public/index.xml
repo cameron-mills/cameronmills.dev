@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cameron Mills</title>
-    <link>http://localhost:1313/</link>
+    <link>https://cameronmills.dev/</link>
     <description>Recent content on Cameron Mills</description>
     <image>
       <title>Cameron Mills</title>
-      <url>http://localhost:1313/favicon.ico</url>
-      <link>http://localhost:1313/favicon.ico</link>
+      <url>https://cameronmills.dev/favicon.ico</url>
+      <link>https://cameronmills.dev/favicon.ico</link>
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Feb 2026 17:43:57 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cameronmills.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Cameron Mills</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://cameronmills.dev/about/</link>
       <pubDate>Fri, 13 Feb 2026 17:43:57 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://cameronmills.dev/about/</guid>
       <description>Learn about Cameron Mills, Senior DevSecOps Engineer and Security Leader</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://cameronmills.dev/contact/</link>
       <pubDate>Fri, 13 Feb 2026 17:43:57 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://cameronmills.dev/contact/</guid>
       <description>Get in touch with Cameron Mills</description>
     </item>
     <item>
       <title>Welcome to My Blog</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://cameronmills.dev/posts/welcome/</link>
       <pubDate>Fri, 13 Feb 2026 17:43:57 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://cameronmills.dev/posts/welcome/</guid>
       <description>Introduction to cameronmills.dev and what to expect from this DevSecOps-focused blog</description>
     </item>
   </channel>
