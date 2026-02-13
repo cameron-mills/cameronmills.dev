@@ -1,0 +1,119 @@
+baseURL = 'https://cameronmills.dev'
+languageCode = 'en-us'
+title = 'Cameron Mills'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+googleAnalytics = ""
+
+minify.disableXML = true
+disableKinds = ["taxonomy"]
+
+[params]
+env = "production"
+title = "Cameron Mills"
+description = "Senior DevSecOps Engineer | Security Leadership | DevOps & Cloud Security"
+keywords = ["DevSecOps", "Security Engineering", "DevOps", "Cloud Security", "Security Leadership"]
+author = "Cameron Mills"
+images = ["favicon.ico"]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+[params.profileMode]
+enabled = true
+title = "Cameron Mills"
+subtitle = "Senior DevSecOps Engineer"
+imageUrl = ""
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Cameron Mills"
+buttons = [
+  { name = "Blog", url = "/posts" },
+  { name = "About", url = "/about" },
+  { name = "Contact", url = "/contact" }
+]
+
+[params.homeInfoParams]
+Title = "Welcome to Cameron Mills' Professional Blog"
+Content = "Insights on DevSecOps practices, security engineering, and technical leadership in the intersection of development, operations, and security."
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/cameronmills"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/cameronmills"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:cameron@cameronmills.dev"
+
+[params.analytics.google]
+SiteVerificationTag = ""
+
+[params.analytics.bing]
+SiteVerificationTag = ""
+
+[params.analytics.yandex]
+SiteVerificationTag = ""
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "github"
