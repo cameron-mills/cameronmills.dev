@@ -60,11 +60,11 @@ Content = "Insights on DevSecOps practices, security engineering, and technical 
 
 [[params.socialIcons]]
 name = "linkedin"
-url = "https://linkedin.com/in/cameronmills"
+url = "https://www.linkedin.com/in/cameron-mills/"
 
 [[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/cameronmills"
+name = "github"
+url = "https://github.com/cameron-mills"
 
 [[params.socialIcons]]
 name = "email"
